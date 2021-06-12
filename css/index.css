@@ -1,0 +1,347 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	position: absolute;
+	background-color: powderblue;
+
+	width: 100%;
+
+}
+.main{
+	position: relative;
+	margin:auto ;
+	padding: 1% 5%;
+	background-color: white;
+	height: 172rem;
+	width: 60%;
+	min-width: 31.25rem;
+
+}
+.foot{
+	margin: 0;
+	position: absolute
+	width: 100%;
+	padding: 1.875rem 0;
+	color: #999;
+	text-align: center;
+	background-color: #f9f9f9;
+	border-top: .05rem solid #e5e5e5;
+	background-color: #E5E5E5;
+	height:6.25rem;
+	
+}
+h1,h2,h3{
+	font-family: "Playfair Display",
+	 Georgia, "Times New Roman", serif;
+}
+p{
+	font-family:-apple-system, BlinkMacSystemFont,
+	 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+	  'Open Sans', 'Helvetica Neue', sans-serif;
+	 line-height: 1.875rem;
+	 margin: 1.25rem;
+	 text-indent: 2em;
+}
+hr{
+	border:0.025rem solid #545454;
+}
+.dh{
+	position: relative;
+	width: 100%;
+	background-color: darkgray;
+	height:2.5rem;
+	margin: auto;
+	
+}
+
+.dh li{
+	float: left;
+	height: 2.5rem;
+	line-height: 2.5rem;
+	list-style: none;
+}
+.dh a{
+	display: inline-block;
+	text-decoration: none;
+	font-size: 1.0625rem;
+	color: white;
+	width:10.1875rem;
+	text-align: center;
+	background-color:#a305ff ;
+}
+.dh a:hover{
+	background-color: darkblue;
+}
+
+
+/* 标题 */
+.biaoti{
+	position: relative;
+	margin-bottom:1rem;
+/* 	background-color: #343a40; */
+	background-image: url(../image/001.jpg);
+	background-size: cover;
+	border-radius: 0.3rem;
+	padding: 1.5rem;
+	color: #5555ff;
+	height:21.25rem;
+}
+
+.biaoti2{
+	position: relative;
+	margin-bottom:1rem;
+	background-color: #9b69ff;
+	border-radius: 0.3rem;
+	padding: 1.5rem;
+	color: #fff;
+	height:15.625rem;
+}
+.biaoti p{
+	font-size: 1.25rem;
+	margin-top: 1rem;
+}
+.biaoti p a{
+	  font-weight: bolder;
+	  text-decoration: none;
+}
+.demo{
+	position: relative;
+	height: 90%;
+	width: 43%;
+	margin-left:3%;
+	background-image: url(../image/food.jpg);
+	background-size: cover;
+	float: left;
+	border-radius: 0.5rem;
+	padding: 1%;
+	color: #ff0000;
+}
+
+.demo a{
+	  font-weight: bolder;
+	  text-decoration: none;
+	  color: #ff007f;
+}
+
+.demo:hover{
+	position: relative;
+	height: 92%;
+	width: 45%;
+
+}
+.demo2:hover{
+	position: relative;
+	height: 92%;
+	width: 45%;
+
+}
+
+
+.demo2{
+	position: relative;
+	height: 90%;
+	width: 43%;
+	margin-left:3%;
+	background-image: url(../image/bg2.jpg);
+	background-size: cover;
+	float: left;
+	border-radius: 0.5rem;
+	padding: 1%;
+	color: #5500ff;
+}
+.demo2 a{
+	  font-weight: bolder;
+	  text-decoration: none;
+	  color: #5500ff;
+}
+
+.text{
+	width: 100%;
+	background-color: white;
+	height:70%;
+}
+.left{
+	position: relative;
+	float: left;
+	width: 60%;
+	height:100%;
+/* 	background-color: brown; */
+	}
+.left ul{
+	padding: 2.5rem;
+	
+}
+.right{
+	position: relative;
+	float: left;
+	width: 40%;
+	height:100%; 
+/* 	background-color: green; */
+/* 	min-width: 18.75rem; */
+	
+}
+.right1{
+	position: relative;
+	width: 85%;
+	margin: auto;
+	height: 20%;
+/* 	background-color: darkgray; */
+	padding: 20px;
+}
+.right2{
+	top: 0.625rem;
+	position: relative;
+	width: 85%;
+	margin:0.625rem auto;
+	height: 15%;
+	background-color:#d8d8d8;
+	padding: 20px;
+	border-radius: 0.625rem;
+}
+
+.right3{
+	top: 0.625rem;
+	position: relative;
+	width: 85%;
+	margin:0.625rem auto;
+	height: 20%;
+	background-color:#d8d8d8;
+	padding: 20px;
+	border-radius: 0.625rem;
+	
+}
+.right3 ol{
+	margin: 1.875rem;
+}
+.right3 ol li{
+	line-height:2rem;
+
+	
+}
+.right3 ol li a {
+		text-decoration: none;
+		color: #5555FF;
+}
+
+.calendar{
+    position: relative;
+    margin: 0 auto;
+    width:100%;
+    height: 90%;
+    background: black;
+    color: #FFFFFF;
+    opacity: 0.9;
+    top:5%;
+    box-shadow: 0px 1px 1px rgba(0,0,0,.1);
+/*    border: solid 1px #6ac13c; */
+	border-radius: 0.625rem;
+}
+
+.title{
+    height: 20%;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    position: relative;
+    text-align: center;
+}
+
+#calendar-title{
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 14px 0 0 0;
+}
+
+#calendar-year{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+#pre{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+    /*没规定大小时，图片显示 0X0*/
+    width: 60px;
+    height: 70px;
+    text-decoration: none;
+    color: #6ac13c;
+    font-size: 15px;
+
+}
+
+#next{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 60px;
+    height: 70px;
+    text-decoration: none;
+    color: #6ac13c;
+    font-size: 15px;
+}
+
+.bod-list ul{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+.bod-list ul li{
+    list-style: none;
+
+
+    /*100/7 = 14.28%*/
+    display: block;
+    width: 14.28%;
+    float: left;
+
+    /*规定行高，垂直居中*/
+    height: 36px;
+    line-height: 36px;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+
+.green{
+    color:#6ac13c;
+}
+.lightgrey{ /*浅灰色显示过去的日期*/
+    color:#a8a8a8;
+}
+.darkgrey{ /*深灰色显示将来的日期*/
+    color:#565656;
+}
+
+/*日期当天用绿色背景绿色文字加以显示*/
+.greenbox{
+    border: 1px solid #6ac13c;
+    background: #e9f8df;
+}
+
+.butt {
+  margin-bottom: 4rem;
+}
+.butt a {
+  border-radius: 2rem;
+  color: #007bff;
+  background-color: transparent;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-decoration: none;
+  margin-left: 0.625rem;
+}
