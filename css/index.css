@@ -56,18 +56,24 @@ hr{
 	
 }
 
+
+
 .dh li{
+	position: relative;
 	float: left;
 	height: 2.5rem;
 	line-height: 2.5rem;
 	list-style: none;
+	width: 14.28%;
 }
 .dh a{
+	position: relative;
 	display: inline-block;
 	text-decoration: none;
 	font-size: 1.0625rem;
 	color: white;
-	width:10.1875rem;
+/* 	width:10.1875rem; */
+	width:100% ;
 	text-align: center;
 	background-color:#a305ff ;
 }
