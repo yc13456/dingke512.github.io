@@ -43,7 +43,9 @@ p{
 .img{
 	/* background-color: #6AC13C; */
 	position: relative;
-	height: 90%;
+	margin-top: 5%;
+	position: relative;
+	height: 80%;
 	float: left;
 	width: 43%;
 	display:flex;
