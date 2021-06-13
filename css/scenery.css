@@ -34,9 +34,11 @@ p{
 
 }
 
+
 .item{
+	position: relative;
 	width: 100%;
-	height: 21.875rem;
+	height: 25rem;
 /* 	background-color: #007BFF; */
 	padding: 1.25rem 0;
 	margin-bottom: 1.875rem;
@@ -44,9 +46,9 @@ p{
 .img{
 	/* background-color: #6AC13C; */
 	position: relative;
-	margin-top: 5%;
+	margin-top: 7%;
 	position: relative;
-	height: 80%;
+	height: 75%;
 	float: left;
 	width: 43%;
 	display:flex;
@@ -54,8 +56,8 @@ p{
 	justify-content:center;
 	margin-left: 1.5%;
 	
-
 }
+
 .text{	
 /* 	background-color: red; */
 	position: relative;
