@@ -103,3 +103,14 @@ function getDate(){
 }
 //使用定时器每秒向div写入当前时间
 setInterval("getDate()",100);
+
+
+
+
+$(document).ready(function(){
+	$("#gif").toggle();
+	 $("#we").click(function(){
+		 $("#gif").toggle();
+	});
+});
+				
